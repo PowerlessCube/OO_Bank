@@ -58,7 +58,7 @@ describe('bank', function(){
     bank.addAccount(account2);
     bank.addAccount(account3);
 		bank.addInterest(10);
-		assert.equal( 55, account1.amount)
+		assert.equal( 55, account1.amount);
 
 	});
 });

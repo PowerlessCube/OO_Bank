@@ -41,7 +41,6 @@ BankViewer.prototype = {
 		var interestButton = document.getElementById("interest");
 
 		interestButton.onclick = function() {
-			console.log("clicky, clicky good stuff");
 			totalDisplay.innerText = "";
 			accountList.innerHTML = "";
 			businessAccountList.innerText = "";
