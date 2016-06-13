@@ -1,0 +1,16 @@
+{
+  "name": "webpack_bank_startpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha specs",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
